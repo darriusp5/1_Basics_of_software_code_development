@@ -10,7 +10,7 @@ public class Task1 {
         double b = s.nextDouble();//вызываем метод,который будет записывать значение типа Double в переменную b;
         System.out.println("Введите значение c :");//Выводим пояснение в консоль,для ввода значения переменной c;
         double c = s.nextDouble();//вызываем метод,который будет записывать значение типа Double в переменную c;
-        System.out.println("Значение z = " + funResult(a , b , c));
+        System.out.println("Значение z = " + funResult(a , b , c));//Выводим результат работы функции funResult + пояснение;
     }
     public static double funResult ( double a, double b, double c){ // функция,с именем funResult, в которую передаём значение трёх переменных(a , b ,c);
         double z = (((b + (Math.sqrt(Math.pow(b , 2) + (4 * a * c))))/ (2 * a))) - ((Math.pow(a , 3) * c) + (Math.pow(b , -2)));//выражение,в котором полученный результат записывается в созданную переменную z;
