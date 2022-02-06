@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//импортируем класс сканнер
 
 public class Task4 {
     public static void main(String[] args) {
